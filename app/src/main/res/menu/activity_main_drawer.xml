@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/user1"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/invoice"
+            android:title="Previous Bill" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/complain"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/nav_slideshows"
+            android:icon="@drawable/rating"
+            android:title="Rating" />
+        <item
+            android:id="@+id/nav_slideshowz"
+            android:icon="@drawable/notification1"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_galleryy"
+            android:icon="@drawable/bill_new"
+            android:title="Bill" />
+    </group>
+</menu>
